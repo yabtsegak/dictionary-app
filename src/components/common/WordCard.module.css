@@ -1,0 +1,7 @@
+.card { display:block; padding:20px 24px; background:var(--surface); border:1px solid var(--border); border-radius:14px; text-decoration:none; color:var(--text); transition:all 0.2s; }
+.card:hover { border-color:var(--primary); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,0.06); }
+.head { display:flex; align-items:baseline; gap:12px; margin-bottom:6px; }
+.head h3 { font-family:var(--font-display); font-size:1.4rem; margin:0; }
+.phonetic { color:var(--text-muted); font-size:0.95rem; }
+.pos { display:inline-block; font-size:0.75rem; font-style:italic; color:var(--primary); background:var(--primary-soft); padding:2px 10px; border-radius:6px; margin-bottom:10px; text-transform:lowercase; }
+.def { color:var(--text-muted); line-height:1.6; margin:0; font-size:0.95rem; }

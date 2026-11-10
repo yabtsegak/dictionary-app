@@ -1,0 +1,2 @@
+.box { display:flex; align-items:center; gap:12px; padding:20px 24px; background:#fef2f2; border:1px solid #fecaca; border-radius:12px; color:#991b1b; }
+.icon { font-size:1.5rem; }
